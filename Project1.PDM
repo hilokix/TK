@@ -1,0 +1,374 @@
+[Root]
+Most Recent Package=biometric
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=K:\FINGER PRINT\SBYC TIMEKEEPING2\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=
+C:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=
+C:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+K:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\WINDOWS\system32\oleaut32.dll=Yes
+E:\WINDOWS\system32\olepro32.dll=Yes
+E:\WINDOWS\system32\asycfilt.dll=Yes
+E:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=Yes
+C:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=Yes
+C:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=Yes
+E:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+K:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=$(WinSysPath)
+C:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=$(WinSysPath)
+C:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=$(WinSysPath)
+E:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+K:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=TIMEKEEPING
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=TIMEKEEPING
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|TIMEKEEPING]
+Icon1=Timekeeper.exe
+Title1=TIMEKEEPING
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=K:\FINGER PRINT\SBYC TIMEKEEPING2\Package
+ProjectFolder=K:\FINGER PRINT\SBYC TIMEKEEPING2
+ServerSideCab=
+File1=K:\FINGER PRINT\SBYC TIMEKEEPING2\Package\setup.exe
+File2=K:\FINGER PRINT\SBYC TIMEKEEPING2\Package\Setup.Lst
+File3=K:\FINGER PRINT\SBYC TIMEKEEPING2\Package\Timekeeper.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|biometric|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\FOR DEPLOYMENT
+
+[Package|biometric|Configure DAO ISAMs]
+Applicable=No
+
+[Package|biometric|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|biometric|Files Found]
+
+[Package|biometric|Files Released]
+dbemployment.mdb=
+DBACCESS.INI=
+DB.INI=
+0.jpg=
+
+[Package|biometric|Missing Dependency Information]
+C:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=
+C:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=
+C:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=
+D:\Documents and Settings\kode\Desktop\SBYC TIMEKEEPING2\DpSdkUsr.dll=
+D:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=
+D:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=
+D:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=
+D:\WINDOWS\system32\FM20.DLL=
+D:\Documents and Settings\asshole\Desktop\DOWNLOAD\PGESETUP\PageSet.dll=
+D:\WINDOWS\system32\PageSet.dll=
+D:\WINDOWS\system32\DpSdkUsr.dll=
+D:\WINDOWS\system32\DpSdkOps.dll=
+D:\WINDOWS\system32\DpSdkEng.dll=
+D:\Documents and Settings\asshole\Desktop\REPORT HRD\PageSet.dll=
+M:\FINGER PRINT\REPORT HRD\PageSet.dll=
+K:\FINGER PRINT\REPORT HRD\PageSet.dll=
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DpSdkUsr.dll=
+K:\FINGER PRINT\SBYC REGISTRATION [SOURCE]2[ACCESS]\DpSdkOps.dll=
+K:\FINGER PRINT\SBYC REGISTRATION [SOURCE]2[ACCESS]\DpSdkEng.dll=
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\PageSet.dll=
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkOps.dll=
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkEng.dll=
+G:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\PageSet.dll=
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\PageSet.dll=
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkUsr.dll=
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkOps.dll=
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkEng.dll=
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\PageSet.dll=
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\TIMEKEEPER\PageSet.dll=
+
+[Package|biometric|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\MSCOMCTL.OCX=
+D:\WINDOWS\system32\MSCOMCTL.OCX=
+D:\WINDOWS\system32\MSSTDFMT.DLL=
+D:\WINDOWS\system32\MSCOMCT2.OCX=
+
+[Package|biometric|Files Added]
+e:\my files\coding project folder\finger print\working active\tk\db.ini=
+e:\my files\coding project folder\finger print\working active\tk\dbaccess.ini=
+
+[Package|biometric|Files Removed]
+k:\finger print\for access\copy of copy of sbyc timekeeping2[insert only method]\dbemployment.mdb=
+
+[Package|biometric|Files In Project]
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+D:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=Yes
+D:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=Yes
+D:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=Yes
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\Timekeeper.exe=Yes
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\TIMEKEEPER\PageSet.dll=Yes
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\DB.INI=Yes
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\DBACCESS.INI=Yes
+
+[Package|biometric|Configure Registry Files]
+Applicable=No
+
+[Package|biometric|Configure Remote Servers]
+Applicable=No
+
+[Package|biometric|Install Locations]
+K:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=$(WinSysPath)
+C:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=$(WinSysPath)
+C:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=$(WinSysPath)
+E:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+K:\FINGER PRINT\SBYC TIMEKEEPING2\0.jpg=$(AppPath)
+K:\FINGER PRINT\SBYC TIMEKEEPING2\DB.INI=$(AppPath)
+L:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\DigitalPersona\Bin\DpSdkEng.dll=$(WinSysPath)
+D:\Program Files\DigitalPersona\Bin\DpSdkOps.dll=$(WinSysPath)
+D:\Documents and Settings\kode\Desktop\SBYC TIMEKEEPING2\DpSdkUsr.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+L:\FINGER PRINT\SBYC TIMEKEEPING2\0.jpg=$(AppPath)
+L:\FINGER PRINT\SBYC TIMEKEEPING2\DB.INI=$(AppPath)
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=$(AppPath)
+D:\Program Files\DigitalPersona\Bin\DpSdkUsr.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\0.jpg=$(AppPath)
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\DB.INI=$(AppPath)
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\DBACCESS.INI=$(AppPath)
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=$(AppPath)
+D:\Documents and Settings\asshole\Desktop\DOWNLOAD\PGESETUP\PageSet.dll=$(WinSysPath)
+D:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\0.jpg=$(AppPath)
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\DB.INI=$(AppPath)
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=$(AppPath)
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\0.jpg=$(AppPath)
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\DB.INI=$(AppPath)
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\DBACCESS.INI=$(AppPath)
+D:\WINDOWS\system32\DpSdkEng.dll=$(WinSysPath)
+D:\WINDOWS\system32\DpSdkOps.dll=$(WinSysPath)
+D:\WINDOWS\system32\DpSdkUsr.dll=$(WinSysPath)
+D:\WINDOWS\system32\PageSet.dll=$(WinSysPath)
+D:\Documents and Settings\asshole\Desktop\REPORT HRD\PageSet.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+M:\FINGER PRINT\REPORT HRD\PageSet.dll=$(WinSysPath)
+M:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=$(AppPath)
+M:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DBEMPLOYMENT.MDB=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=$(AppPath)
+K:\FINGER PRINT\SBYC REGISTRATION [SOURCE]2[ACCESS]\DpSdkEng.dll=$(WinSysPath)
+K:\FINGER PRINT\SBYC REGISTRATION [SOURCE]2[ACCESS]\DpSdkOps.dll=$(WinSysPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DpSdkUsr.dll=$(WinSysPath)
+K:\FINGER PRINT\REPORT HRD\PageSet.dll=$(WinSysPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\0.jpg=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DB.INI=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DBACCESS.INI=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DBEMPLOYMENT.MDB=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkEng.dll=$(WinSysPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkOps.dll=$(WinSysPath)
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\PageSet.dll=$(WinSysPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\0.jpg=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DB.INI=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBACCESS.INI=$(AppPath)
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBEMPLOYMENT.MDB=$(AppPath)
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+G:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\PageSet.dll=$(WinSysPath)
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\0.jpg=$(AppPath)
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DB.INI=$(AppPath)
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBACCESS.INI=$(AppPath)
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\dbemployment.mdb=$(AppPath)
+G:\DBEMPLOYMENT.MDB=$(AppPath)
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=$(AppPath)
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkEng.dll=$(WinSysPath)
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkOps.dll=$(WinSysPath)
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DpSdkUsr.dll=$(WinSysPath)
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\PageSet.dll=$(WinSysPath)
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=$(AppPath)
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\PageSet.dll=$(WinSysPath)
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DB.INI=$(AppPath)
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBACCESS.INI=$(AppPath)
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\Timekeeper.exe=$(AppPath)
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\TIMEKEEPER\PageSet.dll=$(WinSysPath)
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\DB.INI=$(AppPath)
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\DBACCESS.INI=$(AppPath)
+
+[Package|biometric|Configure Shared Files]
+Applicable=Yes
+K:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+K:\FINGER PRINT\SBYC TIMEKEEPING2\0.jpg=No
+K:\FINGER PRINT\SBYC TIMEKEEPING2\DB.INI=No
+L:\FINGER PRINT\SBYC TIMEKEEPING2\Timekeeper.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+L:\FINGER PRINT\SBYC TIMEKEEPING2\0.jpg=No
+L:\FINGER PRINT\SBYC TIMEKEEPING2\DB.INI=No
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=No
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\0.jpg=No
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\DB.INI=No
+K:\FINGER PRINT\SBYC TIMEKEEPING2[ACCESS]\DBACCESS.INI=No
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=No
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\0.jpg=No
+K:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\DB.INI=No
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=No
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\0.jpg=No
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\DB.INI=No
+M:\FINGER PRINT\Copy of SBYC TIMEKEEPING2[ACCESS]\DBACCESS.INI=No
+M:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=No
+M:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DBEMPLOYMENT.MDB=No
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\Timekeeper.exe=No
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\0.jpg=No
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DB.INI=No
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DBACCESS.INI=No
+K:\FINGER PRINT\FOR ACCESS\Copy of SBYC TIMEKEEPING2[ACCESS]\DBEMPLOYMENT.MDB=No
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=No
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\0.jpg=No
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DB.INI=No
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBACCESS.INI=No
+K:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBEMPLOYMENT.MDB=No
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=Yes
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\0.jpg=Yes
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DB.INI=Yes
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBACCESS.INI=Yes
+G:\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\dbemployment.mdb=Yes
+G:\DBEMPLOYMENT.MDB=Yes
+F:\DISSASEBLER\C++\VBFILES\KEYLOGGER\EXPORTATION\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=Yes
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\Timekeeper.exe=No
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DB.INI=Yes
+F:\CODING PROJECT FOLDER\FINGER PRINT\FOR ACCESS\Copy of Copy of SBYC TIMEKEEPING2[INSERT ONLY METHOD]\DBACCESS.INI=Yes
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\Timekeeper.exe=No
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\DB.INI=Yes
+E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\DBACCESS.INI=Yes
+
+[Package|biometric|Distribution]
+Type=single
+Size=
+Title=TIMEKEEPING
+
+[Package|biometric|IconGroups]
+Group0=TIMEKEEPING
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|biometric|TIMEKEEPING]
+Icon1=Timekeeper.exe
+Title1=TIMEKEEPING
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|biometric|Package]
+PackageFolder=E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\FOR DEPLOYMENT
+ProjectFolder=E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK
+ServerSideCab=
+File1=E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\FOR DEPLOYMENT\setup.exe
+File2=E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\FOR DEPLOYMENT\Setup.Lst
+File3=E:\MY FILES\CODING PROJECT FOLDER\FINGER PRINT\WORKING ACTIVE\TK\FOR DEPLOYMENT\Timekeeper.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

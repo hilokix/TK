@@ -1,0 +1,73 @@
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 0            
+ 13           Type mismatch
+ 3704         Operation is not allowed when the object is closed.
+ 13           Type mismatch
+ 3704         Operation is not allowed when the object is closed.
+ 5            Invalid procedure call or argument
+ 5            Invalid procedure call or argument
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
+ 13           Type mismatch
